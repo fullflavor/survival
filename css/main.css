@@ -1,0 +1,410 @@
+/* Text Elements */
+
+h1 {
+  margin-top: 0;
+  margin-bottom: .5rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-weight: 300;
+  font-size: 48px;
+  font-family: 'Roboto Condensed', cursive;
+}
+
+h1.heading-1 {
+  float: left;
+  text-align: center;
+  font-size: 32px;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+h1.heading-2 {
+  font-size: 32px;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+h1.heading-3 {
+  font-size: 32px;
+  font-family: 'Arial Black', 'Arial Bold', Gadget, sans-serif;
+}
+
+p.paragraph {
+  margin-top: 12px;
+  margin-bottom: 0;
+  max-width: 660px;
+  color: rgba(0, 0, 0, .65);
+  letter-spacing: 1px;
+  font-size: 17px;
+  font-family: 'Roboto', sans-serif;
+}
+
+p.paragraph.paragraph-1 {
+  float: left;
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  font-size: 19px;
+  font-family: 'Times New Roman', TimesNewRoman, Times, Baskerville, Georgia, serif;
+}
+
+p.paragraph.paragraph-2 {
+  color: #212121;
+  font-weight: 600;
+  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+}
+
+p.paragraph.paragraph-3 {
+  color: #000;
+  font-weight: 600;
+}
+
+p.paragraph.paragraph-4 {
+  color: #212121;
+  font-weight: 600;
+}
+
+p.paragraph.paragraph-5 {
+  padding-right: 0;
+  padding-bottom: 30px;
+  text-align: center;
+}
+
+p.paragraph.paragraph-6 {
+  color: #000;
+  font-weight: 600;
+}
+
+p.paragraph.paragraph-7 {
+  color: #000;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+p.paragraph span.paragraph-text-1 {
+  font-size: 1.8125rem;
+}
+
+p.paragraph.paragraph-8 {
+  color: #000;
+  font-weight: 600;
+  font-size: 17px;
+}
+
+p.paragraph.paragraph-9 {
+  color: #000;
+  font-weight: 600;
+}
+
+p.paragraph.paragraph-10 {
+  color: #000;
+  font-weight: 600;
+}
+
+p.paragraph.paragraph-11 {
+  color: #000;
+  font-weight: 600;
+}
+
+ul.unorder-list.indicators.top-indicators {
+  top: 10px;
+  bottom: auto;
+}
+
+/* Layout Elements */
+
+body.body-1 {
+  display: block;
+  -ms-flex-pack: center;
+  float: left;
+  margin-right: 75px;
+  margin-left: 75px;
+  width: auto;
+
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+     -moz-box-pack: center;
+          justify-content: center;
+}
+
+.container-grid {
+  position: relative;
+}
+
+div.responsive-picture {
+  max-width: none;
+}
+
+.container-grid.container-1 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-1 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-1 > picture {
+  height: 450px;
+}
+
+.rule.rule-2 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.container-grid.container-2 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-2 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-2 > picture {
+  height: 450px;
+}
+
+li.list-item.list-item-1 {
+  font-weight: 600;
+  font-size: 20px;
+}
+
+li.list-item {
+  font-weight: 600;
+  font-size: 21px;
+}
+
+.rule.rule-3 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+.container-grid.container-4 {
+  margin-top: 0;
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-3 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-3 > picture {
+  height: 450px;
+}
+
+.container-grid.container-5 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-4 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-4 > picture {
+  height: 450px;
+}
+
+.rule.rule-4 {
+  margin-left: 300px;
+}
+
+.rule.rule-5 {
+  margin-left: 300px;
+}
+
+.container-grid.container-6 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-5 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-5 > picture {
+  height: 450px;
+}
+
+.rule.rule-6 {
+  margin-left: 300px;
+}
+
+.container-grid.container-7 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-6 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-6 > picture {
+  height: 450px;
+}
+
+.rule.rule-7 {
+  margin-left: 300px;
+}
+
+.rule.rule-2 hr {
+  border-top-width: 2px;
+  border-top-color: #000;
+}
+
+.rule hr {
+  border-top-width: 2px;
+  border-top-color: #000;
+}
+
+.rule {
+  margin-right: 300px;
+  margin-left: 300px;
+  width: auto;
+}
+
+.container-grid.container-8 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-7 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-7 > picture {
+  height: 450px;
+}
+
+.container-grid.container-9 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-8 {
+  float: right;
+  width: 350px;
+  height: 600px;
+}
+
+div.responsive-picture.picture-8 > picture {
+  height: 600px;
+}
+
+.container-grid.container-10 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-9 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-9 > picture {
+  height: 450px;
+}
+
+.container-grid.container-3 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-10 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-10 > picture {
+  height: 450px;
+}
+
+.container-grid.container-11 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-11 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-11 > picture {
+  height: 450px;
+}
+
+.container-grid.container-12 {
+  margin-right: 300px;
+  margin-left: 300px;
+}
+
+div.responsive-picture.picture-12 {
+  float: right;
+  width: 350px;
+  height: 450px;
+}
+
+div.responsive-picture.picture-12 > picture {
+  height: 450px;
+}
+
+li.list-item.indicator-item {
+  width: 18px;
+  background-color: rgba(192, 27, 27, .5);
+}
+
+@supports (display: grid) {
+  .container-grid {
+    position: relative;
+  }
+}
+
+@media screen and (min-width: 37.5625rem) {
+  /* Text Elements */
+
+  h1 {
+    font-size: 52px;
+  }
+
+  p.paragraph {
+    font-size: 17px;
+  }
+}
+
+@media screen and (min-width: 62.0625rem) {
+  /* Text Elements */
+
+  h1 {
+    font-size: 70px;
+  }
+
+  p.paragraph {
+    font-size: 18px;
+  }
+}
+
+@media screen and (min-width: 75.0625rem) {
+  /* Text Elements */
+
+  h1 {
+    font-size: 56px;
+  }
+}
